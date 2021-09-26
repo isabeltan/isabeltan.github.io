@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  margin: 10px;
+  margin: 12.5px;
 }
 
 h1, h2, p, .serif {
@@ -16,25 +16,36 @@ p {
   line-height: 1.5em;
 }
 
+#link {
+  color: pink;
+  text-decoration: underline;
+}
+
 a {
   color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: slateblue;
+  color: pink;
+}
+
+#link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#go-up {
+  color: white;
 }
 
 .opening {
-  padding: 10px 10px 440px 10px;
+  padding: 12.5px 12.5px 440px 12.5px;
   width: 100%;
 }
 
-.title {
-}
-
 .project {
-  padding: 0px 10px 80px 10px;
+  padding: 0px 12.5px 80px 12.5px;
 }
 
 hr {
@@ -46,7 +57,11 @@ hr {
   padding-bottom: 20px;
 }
 
-.carousel {
+.col-6 {
+  margin: 0px;
+}
+
+#carouselExampleCaptions {
   padding-bottom: 20px;
 }
 
@@ -62,6 +77,77 @@ hr {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   display: none;
 }
+
+/*
+#carouselExampleCaptions button {
+  cursor: url(images/prev.png), auto;
+  height: 528px;
+}
+*/
+
+
+/* Change highlight colour background*/
+::selection {
+  background: ;
+  color: pink;
+}
+
+
+/* CSS TOGGLE TEST */
+#toggle {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+}
+
+
+/*
+.blink-bg{
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground{
+  0%    { background-color: #10c018;}
+  25%   { background-color: #1056c0;}
+  50%   { background-color: #ef0a1a;}
+  75%   { background-color: #254878;}
+  100%  { background-color: #04a1d5;}
+} 
+*/
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+// No media query for `xs` since this is the default in Bootstrap
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  ...
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  ...
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  ...
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  ...
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  ...
+}
+
 
 
 

@@ -1,8 +1,9 @@
 body {
   background-color: black;
+  margin: 10px;
 }
 
-h1, h2, p {
+h1, h2, p, .serif {
   color:  white;
 }
 
@@ -12,8 +13,59 @@ p {
   font-style: normal;
   font-size: 1.3em;
   letter-spacing: -0.01em;
+  line-height: 1.5em;
 }
 
-.serif {
-  font-family: adobe-garamond-pro, serif;
+a {
+  color: white;
+  text-decoration: none;
 }
+
+a:hover {
+  color: slateblue;
+}
+
+.opening {
+  padding: 10px 10px 440px 10px;
+  width: 100%;
+}
+
+.title {
+}
+
+.project {
+  padding: 0px 10px 80px 10px;
+}
+
+hr {
+  display: block;
+  height: 40px;
+  border: 0;
+  border-top: 2px solid white;
+  margin:  0px;
+  padding-bottom: 20px;
+}
+
+.carousel {
+  padding-bottom: 20px;
+}
+
+.carousel-caption { 
+  bottom: -90px; 
+  text-align: center;
+}
+
+.carousel-inner { 
+  padding-bottom:90px; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  display: none;
+}
+
+
+
+
+
+
+

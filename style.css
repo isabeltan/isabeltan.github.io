@@ -4,12 +4,12 @@ body {
 }
 
 h1, h2, p, .serif {
-  color:  white;
+  color:  black;
 }
 
 p {
-  font-family: quasimoda, sans-serif;
-  font-weight: 400;
+  font-family: poppins, sans-serif;
+  font-weight: regular;
   font-style: normal;
   font-size: 1.3em;
   letter-spacing: -0.01em;

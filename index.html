@@ -8,7 +8,7 @@
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 		<!-- CSS stylesheet -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 		<!-- Adobe fonts -->
 		<link rel="stylesheet" href="https://use.typekit.net/utf8gbk.css">
 		<!-- JS stylesheet -->
@@ -42,54 +42,90 @@
 
 	</head>
 	<body>
-
-		<!-- TOGGLE TEST 
-		<div id="toggle"><p>Click anywhere to toggle the box.</p></div>
-		<div id="toggle"></div>
-		-->
-
-		<!-- Opening -->
-		<a id="top"></a>
-		<div class="container-fluid opening">
+		<div class="container-fluid fixed-top">
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<p>hello hello hello <span style="font-family:adobe-garamond-pro,serif;font-size:1.15em;letter-spacing:-0.01em;">Studio This</span>.  <a href="mailto:someone@yoursite.com" id="link">email</a>.</p>
+					<p><span style="text-decoration: underline;">Isabel Tan</span> designer<span style="..."></span> </br>
+
+
+					</p>
+				</div>
+			</div>
+			<div class="container-fluid footer fixed-bottom">
+				<div class="row g-0">
+					<div class="col-6">
+						<hr>
+						<p class="text-start"><span style="font-size: 0.8em;"><a href="mailto:someone@yoursite.com" id="link">EMAIL</a> &emsp; <a href="mailto:someone@yoursite.com" id="link">EMAIL</a> &emsp; 
+
+						<a id="link" onclick="myFunction()">POP-UP</a>
+				
+					</div>
+					<div class="col-6">
+						<hr>
+						<p class="text-end"><span style="font-size: 0.8em";>LAST UPDATED: 15.06.22 21:47</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- TITLE -->
-		<div class="container-fluid">
+
+		<div class="align-self-center mx-auto" id="myDIV">
+		<p class="text-left"><span style="..">	
+		.</br>
+		.</br>
+		.</br>
+		.</br>
+		.</br>
+		.</br>
+		.</br>
+		.</br>
+		</p>
+		</div>
+		</span></p>
+
+		<script>
+		function myFunction() {
+  		var x = document.getElementById("myDIV");
+  		if (x.style.display === "none") {
+    	x.style.display = "block";
+  		} else {
+    	x.style.display = "none";
+  		}
+		}
+		</script>
+
+		<!-- TITLE 
+		<div class="container-fluid sticky">
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-					<p>SOME PROJECTS ↓</p>
+					<p>Selected Projects ↓</p>
 				</div>
 			</div>
-		</div>
-		<!-- Project 1 -->
+		</div> -->
+		<!-- Project 1 
 		<div class="container-fluid project">
 			<div class="row title">
 				<div class="col-sm-md-lg-xl-12">
 					<hr>
-					<p>1/3 : Branding and Website, completed at <span style="font-family:adobe-garamond-pro,serif;font-size:1.15em;letter-spacing:-0.01em;">This Studio.</span> </p>
+					<p>1/3 : Branding and Website, completed at <span style=" ">This Studio.</span> </p>
 				</div>
-			</div>
-			<!-- Carousel 1 -->
+			</div> -->
+			<!-- Carousel 1 
 			<div id="carouselExampleCaptions" class="carousel" data-interval="false" data-bs-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="https://cdn.shopify.com/s/files/1/0528/0297/7982/products/0648_12_900x478.jpg?v=1627444258" class="d-block w-100" height="..." width="80%" alt="..." >
+						<img src="https://vincentbasham.co.uk/wp-content/uploads/2017/04/Stormy-Sea-2-460-x-730.jpg" class="d-block w-100" height="..." width="80%" alt="..." >
 						<div class="carousel-caption position-static">
 							<p>Caption 1, Some representative placeholder content for the first slide.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="https://cdn.shopify.com/s/files/1/0528/0297/7982/products/0648_12_900x478.jpg?v=1627444258" class="d-block w-100" height="..." alt="...">
+						<img src="https://www.ephotozine.com/articles/how-to-photograph-stormy-seas-15558/images/Cornwall.jpg" class="d-block w-100" height="..." alt="...">
 						<div class="carousel-caption position-static">
 							<p>Caption 2, Some representative placeholder content for the second slide.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="https://cdn.shopify.com/s/files/1/0528/0297/7982/products/0648_12_900x478.jpg?v=1627444258" class="d-block w-100" height="..." alt="...">
+						<img src="https://images.saatchiart.com/saatchi/1737470/art/8223969/7289387-HSC00001-7.jpg" class="d-block w-100" height="..." alt="...">
 						<div class="carousel-caption position-static">
 							<p>Caption 3, Some representative placeholder content for the third slide.</p>
 						</div>
@@ -104,32 +140,32 @@
 				<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-		</div>
-		<!-- Project 2 -->
+		</div> -->
+		<!-- Project 2 
 		<div class="container-fluid project">
-			<div class="row">
+			<div class="row title">
 				<div class="col-sm-md-lg-xl-12">
 					<hr>
 					<p>2/3 : Sink Magazine, self-initiated.</p>
 				</div>
-			</div>
-			<!-- Carousel 2 -->
+			</div> -->
+			<!-- Carousel 2 
 			<div id="carouselExampleCaptions2" class="carousel" data-interval="false" data-bs-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="https://cdn.shopify.com/s/files/1/0528/0297/7982/products/0648_12_900x478.jpg?v=1627444258" class="d-block w-100" height="528px" alt="..." >
+						<img src="https://images.saatchiart.com/saatchi/1737470/art/8223969/7289387-HSC00001-7.jpg" class="d-block w-100" height="..." alt="..." >
 						<div class="carousel-caption position-static">
 							<p>Caption 1, Some representative placeholder content for the first slide.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg" class="d-block w-100" height="528px" alt="...">
+						<img src="https://www.ephotozine.com/articles/how-to-photograph-stormy-seas-15558/images/Cornwall.jpg" class="d-block w-100" height="..." alt="...">
 						<div class="carousel-caption position-static">
 							<p>Caption 2, Some representative placeholder content for the second slide.</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="https://naturedestinations.ca/wp-content/uploads/2019/07/Old-Man-1-1100-600x403.jpg" class="d-block w-100" height="528px" alt="...">
+						<img src="https://vincentbasham.co.uk/wp-content/uploads/2017/04/Stormy-Sea-2-460-x-730.jpg" class="d-block w-100" height="..." alt="...">
 						<div class="carousel-caption position-static">
 							<p>Caption 3, Some representative placeholder content for the third slide.</p>
 						</div>
@@ -144,20 +180,20 @@
 				<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-		</div>
-		<!-- Closing -->
+		</div> -->
+		<!-- Closing 
 		<div class="container-fluid closing">
 			<div class="row closing g-0">
 				<div class="col-6">
 					<hr>
-					<p>Last updated: 25/09/21 10:04 PM</p>
+					<p>Last updated 10 June 22 16:37</p>
 				</div>
 				<div class="col-6">
 					<hr>
-					<p class="text-end"><a href="#top">GO UP ↑</a></p>
+					<p class="text-end"><a href="#top">Go Up ↑</a></p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 	</body>

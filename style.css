@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: offwhite;
 }
 
 .fixed-column {
@@ -10,13 +10,12 @@ body {
     overflow-y: auto;
     z-index: 1; /* Ensure it's above the scrollable column */
     border-right: 1px solid black; /* Vertical rule style */
-
 }
 
 .scrollable-column {
     margin-left: 33.333%;
     width: 66.666%;
-    /* Add any specific styling for the scrollable column if needed */
+
 }
 
 .half-height { /*for <div class="col-4">text*/
@@ -25,10 +24,11 @@ body {
 
 
 .content-wrapper {
-    width: 66.666%;
-    /*column-count: 2;  Display content in three columns */
+    width: 100%;
+    column-count: 2;  /*Display content in three columns */
     column-gap: 20px; /* Adjust as needed for gutter */
-    padding-bottom: 15px; /* Padding within the scrollable area */
+    line-height: 1.3em;
+
 }
 
 .nav-item {
@@ -50,6 +50,23 @@ body {
   color: black;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+mt-md-50 {
+  margin-top:50%;
+}
 
 h1, h2, p, .serif, #myDIV {
 }
@@ -60,7 +77,7 @@ p {
   font-style: normal;
   font-size: 0.65em;
   /*letter-spacing: 0.00em;*/
-  line-height: 1.35em;
+  line-height: 1.3em;
 }
 
 
@@ -74,8 +91,33 @@ p {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  ...
+@media (max-width: 768px) {
+  .fixed-top-md {
+      position: fixed;
+      top: 0;
+      padding-top:15px;
+      width: 100%;
+  }
+  .fixed-bottom {
+      position: static; /* or initial */
+  }
+  
+  .fixed-column {
+    position: static;
+  }
+
+  .scrollable-column {
+    margin-left:0px;
+    margin-top:50%;
+    z-index: 2;
+    width: 100%;
+    height:50%;
+    border-top: 1px solid black; /* Vertical rule style */
+    white-space: nowrap; /* Ensures content doesn't wrap */
+    overflow-x: auto; /* Enables horizontal scrolling */
+  }
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -92,4 +134,12 @@ p {
 @media (min-width: 1400px) { 
   ...
 }
+
+
+
+
+
+
+
+
 

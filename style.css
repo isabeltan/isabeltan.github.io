@@ -120,17 +120,20 @@ p {
 
   .scrollable-column {
     margin-left:0px;
-    margin-top: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    bottom: 0;
     z-index: 2;
     width: 100%;
-    border-bottom: 1px solid black; /* Vertical rule style */
+    border-top: 1px solid black; /* Vertical rule style */
     white-space: nowrap; /* Ensures content doesn't wrap */
     overflow-x: auto; /* Enables horizontal scrolling */
   }
 
   .adjusted-margin-top {
-    margin-top: 45px;
+    margin-top: 33.333%;
   }
+
 
 }
 

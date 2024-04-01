@@ -9,6 +9,10 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 		<!-- CSS stylesheet -->
 		<link rel="stylesheet" href="style.css">
+		<!-- Google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 		<!-- Adobe fonts -->
 		<link rel="stylesheet" href="https://use.typekit.net/utf8gbk.css">
 		<!-- JS stylesheet -->
@@ -34,115 +38,381 @@
 		
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="row gx-4">
-				<!--Fixed 1/3 column for navigation-->
-				<div class="col-lg-4 col-md-12 fixed-column d-flex flex-column justify-content-between">
-					<div class="table">
-						<div class="row mt-2">
-							<div class="col-6 nav-item" href="#page1">
-								<p>1<br>Title<br>Branding, 2023<br>Self-initiated</p></a>
-							</div>
-							<div class="col-6 nav-item" href="#page2">
-								<p>2<br>Title<br>Branding, 2023<br>Self-initiated</p></a>
-							</div>
-						</div>
-						<!--Padding on rows-->
-						<div class="row">
-							<div class="col-6 nav-item" href="#page3">
-								<p>3<br>Title<br>Branding, 2023<br>Self-initiated</p>
-							</div>
-							<div class="col-6 nav-item" href="#page4">
-								<p>4<br>Title<br>Branding, 2023<br>Self-initiated</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-6 nav-item" href="#page5">
-								<p>5<br>Title<br>Branding, 2023<br>Self-initiated</p>
-							</div>
-							<div class="col-6 nav-item" href="#page6">
-								<p><br>Isabel Tan<br>isabeltdesign@gmail.com<br>About</p>
-							</div>
-						</div>
-					</div>
-					<!--Flex-end-->
-					<div class="mt-auto">
-						<div class="row  fixed-top-md">
-							<div class="col-6 px-3 header"><p><a href="index.html">ISABEL TAN</a></div>
-							<div class="col-6 px-3 header"><p id="dateAndTime"></p></div>
-						</div>
-					</div>
-				</div>
-				<!--Scrollable 2/3 column for content-->
-				<div class="adjusted-margin-top">
-					<div class="col-lg-8 col-md-12 scrollable-column mt-2">
-						<div class="row gx-4">
-							<p id="defaultMessage">Click on a project to begin, click slowly though, please.</p>
-						</div>
-						<div class="row gx-4 hidden" id="page1">
-							<img src="images/a.png">
-							<img src="images/b.png">
-							<img src="images/c.png">
-							<div class="col-12 content-wrapper">
-								<p>Deities is a high-end concept store for designer fashion and homeware. With the name, I immediately saw symmetry and explored its notion in the context of religion and nature. I stumbled upon the Architecture of Sound by Tanya Harris and was inspired by both the architectural quality and beauty of the church floorplans she referenced, and the intricate mosaic patterns of mosques. This sacred geometry found in religious architecture has rootsin the study of nature, being seen from the spiral shaped growth of sea shells to our DNA structure.</p>
-							</div>
-						</div>
-						<div class="row gx-4 hidden" id="page2">
-							<p>Page 2.</p>
-						</div>
-						<div class="row gx-4 hidden" id="page3">
-							<p>Page 3.</p>
-						</div>
-						<div class="row gx-4 hidden" id="page4">
-							<p>Page 4.</p>
-						</div>
-						<div class="row gx-4 hidden" id="page5">
-							<img src="images/a.png">
-							<img src="images/b.png">
-							<img src="images/c.png">
-							<p>Page 5.</p>
-						</div>
-						<div class="row gx-4 hidden" id="page6">
-							<div class="col-4">
-								<p>"Graphic designer."</p>
-							</div>
-						</div>
-					</div>
-				</div>
+<div class="container-fluid flex-column h-100">
+  <div class="row">
+    <!-- FIRST COLUMN -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 d-flex flex-column">
+    	<div class="row position-fixed">
+        <div id="logo"><a href="isabeltan.github.io">ISABEL TAN</a></div>
+        <div id="toggleBtn">&#8280;&ensp;Info</div>
+          <div id="dropdownText" class="dropdown-content">
+            <p>I'm a graphic designer based in London.</p><p><a class="email" href="mailto:isabeltdesign@gmail.com">E. isabeltdesign@gmail.com</a></p>
+          </div>
+      </div>
+    </div>
+    <!-- SECOND COLUMN -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 d-flex flex-column top-15" style="background-color: rgb(247, 246, 240);">
+    
+      <!-- Slideshow1 -->
+      <div class="row">
+        <div class="col-6">
+          <p>1.&nbsp;&nbsp;SYNCHRO&#8212;2023&ndash;24</p>
+        </div>
+        <div class="col-6 text-end">
+        <p>Construct London<span class="secondary">&#8212;Design</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+      <div id="carousel6" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="d-block w-100" src="images/A.png" alt="First slide">
+          </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="images/A2.png" alt="First slide">
+          </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="images/A3.png" alt="First slide">
+          </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="images/A4.png" alt="First slide">
+          </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="images/A6.jpg" alt="First slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel6" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+       </a>
+       <a class="carousel-control-next" href="#carousel6" role="button" href="#carousel6" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+        </div>
+      </div>
+
+ <!-- Slideshow5 -->
+      <div class="spacing row">
+        <div class="col-6">
+          <p>4.&nbsp;&nbsp;AMBIENT&#8212;2024</p>
+        </div>
+        <div class="col-6 text-end">
+
+          <p>Self-initiated<span class="secondary">&#8212;Editorial design</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+      <div id="carousel4" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="d-block w-100" src="images/F.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/F2.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/F3.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/F4.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/F5.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/F6.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/F7.jpg" alt="Third slide">
+         </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel4" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+       </a>
+       <a class="carousel-control-next" href="#carousel4" role="button" href="#carousel4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+        </div>
+      </div>
+
+
+    <!-- Slideshow2 -->
+     <div class="spacing row" style="background-color: rgb(247, 246, 240);">
+        <div class="col-6">
+          <p>2.&nbsp;&nbsp;DANIELLA DRAPER&#8212;2024</p>
+        </div>
+        <div class="col-6 text-end">
+
+          <p>Construct London<span class="secondary">&#8212;Brand identity</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+      <div id="carousel5" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/B.png" alt="Third slide">
+          </div>
+         <div class="carousel-item">
+          <img class="d-block w-100" src="images/B2.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B3.png" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B4.png" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B5.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B6.png" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B7.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B8.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B9.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B10.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel5" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+       </a>
+       <a class="carousel-control-next" href="#carousel5" role="button" href="#carousel5" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+        </div>
+      </div>
+
+    <!-- Slideshow3 -->
+      <div class="spacing row">
+        <div class="col-6">
+          <p>2.&nbsp;&nbsp;LYON FILM FEST&#8212;2024</p>
+        </div>
+        <div class="col-6 text-end">
+
+          <p>Self-initiated<span class="secondary">&#8212;Brand identity</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+      <div id="carousel2" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/C1.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/C1-2.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/C2.jpg" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/C3.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C4.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C5.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C6.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C7.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C8.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C9.jpg" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/C10.jpg" alt="Third slide">
+         </div>   
+        </div>
+        <a class="carousel-control-prev" href="#carousel2" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+       </a>
+       <a class="carousel-control-next" href="#carousel2" role="button" href="#carousel2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+        </div>
+      </div>
+
+    <!-- Slideshow4 -->
+      <div class="spacing row">
+        <div class="col-6">
+          <p>3.&nbsp;&nbsp;SINK&#8212;2019</p>
+        </div>
+        <div class="col-6 text-end">
+
+          <p>Self-initiated<span class="secondary">&#8212;Editorial design</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+      <div id="carousel3" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="d-block w-100" src="images/D.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/D2.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/D3.png" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/D4.png" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/D5.png" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/D6.png" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/D7.png" alt="Third slide">
+         </div>
+         <div class="carousel-item">
+            <img class="d-block w-100" src="images/D8.jpg" alt="Third slide">
+         </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel3" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+       </a>
+       <a class="carousel-control-next" href="#carousel3" role="button" href="#carousel3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+        </div>
+      </div>
+
+    <!-- Slideshow5 -->
+      <div class="spacing row">
+        <div class="col-6">
+          <p>1.&nbsp;&nbsp;MAGDALENA ABAKANOWICZ&#8212;2024</span></p>
+        </div>
+        <div class="col-6 text-end">
+
+          <p>Self-initiated<span class="secondary">&#8212;Brand identity</span></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+			<div id="carouselExampleControls" class="carousel slide" data-interval="false">
+  			<div class="carousel-inner">
+   			 <div class="carousel-item active">
+     			<img class="d-block w-100" src="images/E.jpg" alt="First slide">
+    			</div>
+  			  <div class="carousel-item">
+  			    <img class="d-block w-100" src="images/E2.jpg" alt="Third slide">
+  			  </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/E3.jpg" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/E4.jpg" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/E5.jpg" alt="Third slide">
+         </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/E6.jpg" alt="Third slide">
+         </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+ 			   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+ 			   <span class="sr-only"></span>
+ 			 </a>
+ 			 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+  			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  			  <span class="sr-only"></span>
+  			</a>
 			</div>
-		</div>
-	</div>
-	<script>
-	$(document).ready(function() {
-	$("#defaultMessage").show(); // Show default message initially
-	$(".nav-item").click(function(e) {
-	e.preventDefault();
-	$('.hidden').hide();
-	$(".nav-item").removeClass("active");
-	$(this).addClass("active");
-	$($(this).attr('href')).fadeIn(650);
-	$("#defaultMessage").hide(); // Hide the default message on navigation click
-	});
-	});
-	$("#defaultMessage").show(); // Show default message initially
-	$(".nav-item").click(function(e) {
-	e.preventDefault();
-	$('.hidden').hide();
-	$(".nav-item").removeClass("active");
-	$(this).addClass("active");
-	$($(this).attr('href')).fadeIn(150);
-	$("#defaultMessage").hide(); // Hide the default message on navigation click
-	});
-	$(document).ready(function() {
-	$(".nav-item").click(function(e) {
-	e.preventDefault();
-	$('.hidden').hide();
-	$(".nav-item").removeClass("active");
-	$(this).addClass("active");
-	$($(this).attr('href')).fadeIn(150);
-	});
-	});
-	</script>
+        </div>
+      </div>
+
+
+      <!-- Slideshow5 -->
+
+      <!-- Slideshow7 -->
+      <div class="spacing row">
+        <div class="col-6">
+          <p>6.&nbsp;&nbsp;POSTERS&#8212;2023&ndash;24</p>
+        </div>
+        <div class="col-6 text-end">
+
+          <p>Self-initiated<span class="secondary">&#8212;Design</span></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+      <div id="carousel7" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img class="d-block w-100" src="images/G.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/G2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/G3.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel7" role="button" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only"></span>
+       </a>
+       <a class="carousel-control-next" href="#carousel7" role="button" href="#carousel7" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<script>
+
+
+  // JavaScript to toggle the dropdown text
+  const toggleBtn = document.getElementById('toggleBtn');
+  const dropdownText = document.getElementById('dropdownText');
+
+  toggleBtn.addEventListener('click', function() {
+    dropdownText.classList.toggle('active');
+  });
+</script>
+
 	<!-- Bootstrap Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>

@@ -1,89 +1,130 @@
 body {
-  background-color: offwhite;
+  background-color: rgb(247, 246, 240);
+  padding: 15px;
+  margin: 1% 1% 20% 1%;
+}
+
+.top-15 {
+  margin-top: 2px;
+  z-index: 0;
 }
 
 .container-fluid {
-  min-height: 100vh;
+  max-height: 
 }
 
-.fixed-column {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow-y: auto;
-    z-index: 1; /* Ensure it's above the scrollable column */
-    border-right: 1px solid black; /* Vertical rule style */
+.position-fixed {
+  background-color: rgb(247, 246, 240);
+  position: fixed;
 }
 
-.scrollable-column {
-    margin-left: 33.333%;
-    width: 66.666%;
-
+#logo {
+  padding: 0px 0px 14px 12px;
+  z-index: 1000;
+  height: 30px;
+  font-family: "Crimson Pro", serif;
+  font-size: 1em;
+  position: sticky;
+  z-index: 1000;
 }
 
-.half-height { /*for <div class="col-4">text*/
-  height:50vh;
-}
-
-
-.content-wrapper {
-    width: 100%;
-    column-count: 2;  /*Display content in three columns */
-    column-gap: 20px; /* Adjust as needed for gutter */
-    line-height: 1.3em;
-
-}
-
-.nav-item {
-    color: darkgray; /* Default text color */
-    transition: color 0.3s; /* Smooth transition on color change */
-    cursor: pointer;
-}
-
-.nav-item:hover {
-    color: black; /* Text color changes to black on hover */
-}
-
-
-.hidden {
-  display: none;
-}
-
-.active {
+#toggleBtn {
+  border: none;
   color: black;
+  padding: 0px 0px 14px 12px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Crimson Pro", serif;
+  font-size: 1em;
+  font-style: italic;
+  position: relative; /* Change position to relative */
+  z-index: 500; /* Adjust this value to be lower than the logo */
+}
+
+#toggleBtn:hover {
+  color: rgb(147, 146, 140);
+  font-family: "Crimson Pro", serif;
+}
+
+.dropdown-content {
+  color: rgb(87, 87, 87);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.email {
+  color: rgb(87, 87, 87);
+}
+
+.dropdown-content.active {
+  max-height: 200px; /* Adjust this value as needed */
+}
+
+#toggleBtn:hover {
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
   color: black;
+  font-style:;
+  margin-left: px;
 }
 
 a:hover {
-  text-decoration: none;
-  color: black;
+  text-decoration: ;
+  color: rgb(147, 146, 140);
+
 }
 
 img {
-  padding-bottom: 15px;
+  max-width:100%;
 }
 
-mt-md-50 {
-  margin-top:50%;
-}
-
-h1, h2, p, .serif, #myDIV {
-}
 
 p {
-  font-family: poppins, sans-serif;
-  font-weight: regular;
-  font-style: normal;
-  font-size: 0.65em;
-  /*letter-spacing: 0.00em;*/
-  line-height: 1.3em;
+  font-family: "Crimson Pro", serif;
+  font-size: 1em;
+  letter-spacing: 0.000em;
+  line-height: 1.25em;
 }
 
+.secondary {
+  font-style: italic;
+}
+
+.spacing {
+  padding-top: 50%;
+}
+
+
+.scroll {
+
+}
+
+.color-change-on-scroll {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.5s ease-in-out;
+}
+
+.color-change-on-scroll.active {
+  color: #ff5733; /* Change to your desired color */
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 29px;
+    width: 250px;
+    display: none;
+    color: rgb(247, 246, 240);
+}
+
+#title {
+  position: fixed;
+}
 
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -91,48 +132,15 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  ...
+  
+  .top-15 {margin-top: 50%;}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-  .fixed-top-md {
-      position: fixed;
-      top: 0;
-      padding-top:15px;
-      width: 100%;
-  }
+@media (max-width: 991px) {
 
-  .table {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-  }
-
-  .fixed-bottom {
-      position: static; /* or initial */
-  }
-  
-  .fixed-column {
-    position: static;
-    border-right: 0px;
-  }
-
-  .scrollable-column {
-    margin-left:0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    bottom: 0;
-    z-index: 2;
-    width: 100%;
-    border-top: 1px solid black; /* Vertical rule style */
-    white-space: nowrap; /* Ensures content doesn't wrap */
-    overflow-x: auto; /* Enables horizontal scrolling */
-  }
-
-  .adjusted-margin-top {
-    margin-top: 33.333%;
-  }
+  .top-15 {margin-top: 50%;}
 
 
 }

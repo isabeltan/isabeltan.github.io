@@ -2,12 +2,9 @@ body {
   background-color: darkgray;
 }
 
-p {
+p, a, h1 {
   font-family: Inter, sans-serif;
-}
-
-a {
-  font-family: Inter, sans-serif;
+  color: white;
 }
 
 

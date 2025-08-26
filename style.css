@@ -1,5 +1,9 @@
 body {
-  background-color: grey;
+  background-color: #cccccc;
+}
+
+p {
+  font-family: Inter, sans-serif;
 }
 
 

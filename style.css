@@ -7,6 +7,9 @@ p, a, h1 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
 
 
 /* X-Small devices (portrait phones, less than 576px) */

@@ -1,129 +1,5 @@
 body {
   background-color: grey;
-  padding: 15px;
-  margin: 1% 1% 20% 1%;
-}
-
-.top-15 {
-  margin-top: 2px;
-  z-index: 0;
-}
-
-.container-fluid {
-  max-height: 
-}
-
-.position-fixed {
-  background-color: rgb(247, 246, 240);
-  position: fixed;
-}
-
-#logo {
-  padding: 0px 0px 14px 12px;
-  z-index: 1000;
-  height: 30px;
-  font-family: "Crimson Pro", serif;
-  font-size: 1em;
-  position: sticky;
-  z-index: 1000;
-}
-
-#toggleBtn {
-  border: none;
-  color: black;
-  padding: 0px 0px 14px 12px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Crimson Pro", serif;
-  font-size: 1em;
-  font-style: italic;
-  position: relative; /* Change position to relative */
-  z-index: 500; /* Adjust this value to be lower than the logo */
-}
-
-#toggleBtn:hover {
-  color: rgb(147, 146, 140);
-  font-family: "Crimson Pro", serif;
-}
-
-.dropdown-content {
-  color: rgb(87, 87, 87);
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
-}
-
-.email {
-  color: rgb(87, 87, 87);
-}
-
-.dropdown-content.active {
-  max-height: 200px; /* Adjust this value as needed */
-}
-
-#toggleBtn:hover {
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  font-style:;
-  margin-left: px;
-}
-
-a:hover {
-  text-decoration: ;
-  color: rgb(147, 146, 140);
-
-}
-
-img {
-  max-width:100%;
-}
-
-
-p {
-  font-family: "Crimson Pro", serif;
-  font-size: 1em;
-  letter-spacing: 0.000em;
-  line-height: 1.25em;
-}
-
-.secondary {
-  font-style: italic;
-}
-
-.spacing {
-  padding-top: 50%;
-}
-
-
-.scroll {
-
-}
-
-.color-change-on-scroll {
-  font-size: 24px;
-  color: #333;
-  transition: color 0.5s ease-in-out;
-}
-
-.color-change-on-scroll.active {
-  color: #ff5733; /* Change to your desired color */
-}
-
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 29px;
-    width: 250px;
-    display: none;
-    color: rgb(247, 246, 240);
-}
-
-#title {
-  position: fixed;
 }
 
 
@@ -132,16 +8,11 @@ p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  
-  .top-15 {margin-top: 50%;}
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 991px) {
-
-  .top-15 {margin-top: 50%;}
-
 
 }
 

@@ -1,1 +1,1 @@
-    console.log("Hello from your_script.js!");
+    console.log("Hello from my.js!");

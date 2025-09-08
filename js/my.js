@@ -1,2 +1,3 @@
-    console.log("Hello from my.js!");
-console.log("JavaScript is working!");
+window.onload = function() {
+    alert("Welcome to our journal!");
+};

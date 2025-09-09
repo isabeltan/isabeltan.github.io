@@ -1,3 +1,8 @@
+//
+//window.onload = function() {
+//    alert("Welcome to our journal!");
+//};
+
 function setup() {
   createCanvas(400, 400);
 }

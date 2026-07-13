@@ -1,3 +1,7 @@
-$primary-color: #2563eb;
-$heading-font: "Cormorant Garamond", serif;
-$body-font: "Inter", sans-serif;
+body, p, div, span {
+  font-family: 'Your New Font Name', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Your Heading Font Name', serif !important;
+}

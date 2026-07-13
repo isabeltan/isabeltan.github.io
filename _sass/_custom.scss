@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+// Change link colors
+a {
+  color: #e63946;
+  &:hover {
+    color: #457b9d;
+  }
+}
 
-body {
-  font-family: "Inter", sans-serif;
+// Modify heading styles
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
 }

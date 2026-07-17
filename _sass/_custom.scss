@@ -1,12 +1,29 @@
-// Change link colors
-a {
-  color: #e63946;
-  &:hover {
-    color: #457b9d;
-  }
+/* Typography overrides */
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-// Modify heading styles
-h1, h2, h3 {
-  font-family: 'Georgia', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+code,
+pre {
+  font-family: "Courier New", monospace;
+}
+
+blockquote {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+
+table {
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }

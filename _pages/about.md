@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>test</a>Currently - Ontario
+subtitle: <a href='#'></a>Currently - Ontario
 
 profile:
   align: right

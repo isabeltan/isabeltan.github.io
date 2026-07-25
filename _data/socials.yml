@@ -4,8 +4,8 @@
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: you@example.com # your email address
 # letterboxd_id:
-  value: # your Letterboxd id
-  logo: fa-brands fa-letterboxd # override with custom icon class
+#   value: # your Letterboxd id
+#   logo: fa-brands fa-letterboxd # override with custom icon class
 spotify_id: aufuqu8v6pvl0a0xrej999unf
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon

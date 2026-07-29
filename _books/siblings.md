@@ -8,9 +8,9 @@ isbn: 7539967447 # use ISBN to fetch cover (if no `olid` is provided, dashes are
 categories: fiction dystopian literary  
 tags: emotional reflective sad slow-paced
 # buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
-date: 2026-07-17
-started: 2026-07-13
-finished: 2026-07-21
+date: 2026-07-24
+started: 2026-07-24
+finished: 
 released: 1963
 stars: 
 # goodreads_review: 6318556633

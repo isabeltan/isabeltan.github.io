@@ -6,7 +6,7 @@ subtitle: <a href='#'></a>Currently - Ontario
 
 profile:
   align: right
-  image: ppic.png
+  image: 1.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 

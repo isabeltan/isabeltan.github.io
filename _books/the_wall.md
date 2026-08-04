@@ -5,8 +5,8 @@ author: Marlen Haushofer
 cover: assets/img/book_covers/the_wall.jpg
 olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 7539967447 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: fiction feminism literary 1963  
-tags: emotional reflective sad slow-paced
+categories: fiction feminism literary 1963 owned  
+tags: emotional reflective sad slow-paced 
 # buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
 date: 2026-05-04
 started: 2026-05-04

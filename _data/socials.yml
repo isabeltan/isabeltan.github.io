@@ -6,6 +6,10 @@ email: you@example.com # your email address
 # letterboxd_id:
 #   value: # your Letterboxd id
 #   logo: fa-brands fa-letterboxd # override with custom icon class
+custom_social:
+  logo: fa-solid fa-s
+  title: StoryGraph
+  url: https://app.thestorygraph.com/
 spotify_id: aufuqu8v6pvl0a0xrej999unf
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon

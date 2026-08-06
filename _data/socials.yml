@@ -7,7 +7,7 @@ email: you@example.com # your email address
 #   value: # your Letterboxd id
 #   logo: fa-brands fa-letterboxd # override with custom icon class
 custom_social:
-  logo: fa-solid fa-s
+  logo: fa-solid fa-bookmark
   title: StoryGraph
   url: https://app.thestorygraph.com/
 spotify_id: aufuqu8v6pvl0a0xrej999unf

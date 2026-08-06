@@ -10,10 +10,10 @@ tags: dark emotional reflective medium-paced
 # buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
 date: 2026-07-30
 started: 2026-07-30
-finished: 
+finished: 2026-08-5
 released: 1964
 stars: 
 # goodreads_review: 6318556633
-status: reading
+status: finished
 ---
 

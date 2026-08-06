@@ -6,10 +6,6 @@ email: you@example.com # your email address
 # letterboxd_id:
 #   value: # your Letterboxd id
 #   logo: fa-brands fa-letterboxd # override with custom icon class
-custom_social:
-  logo: fa-solid fa-bookmark
-  title: StoryGraph
-  url: https://app.thestorygraph.com/
 spotify_id: aufuqu8v6pvl0a0xrej999unf
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon
@@ -19,4 +15,8 @@ spotify_id: aufuqu8v6pvl0a0xrej999unf
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
 # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 # title: Custom Social
+# custom_social:
+#   logo: 
+#   title: 
+#   url: 
 # url: https://www.alberteinstein.com/

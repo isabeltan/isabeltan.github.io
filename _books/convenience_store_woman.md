@@ -1,17 +1,17 @@
 ---
 layout: book-review
-title: The Four-Chambered Heart
-author: Anaïs Nin
-cover: assets/img/book_covers/the_four-chambered_heart.jpg
+title: Convenience Store Woman
+author: Sayaka Murata
+cover: assets/img/book_covers/convenience_store_woman.jpg
 olid: OL43499941M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 7539967447 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: fiction classics erotica romance AnaïsNin 1950 
-tags: challenging reflective slow-paced
+categories: fiction contemporary literary SayakaMurata 2016  
+tags: reflective fast-paced
 # buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
-date: 2026-08-07
-started: 2026-08-07
+date: 2026-08-11
+started: 2026-08-11
 finished:  
-released: 1950
+released: 2016
 stars: 
 # goodreads_review: 6318556633
 status: reading

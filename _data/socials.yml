@@ -7,7 +7,7 @@
 #   value: # your Letterboxd id
 #   logo: fa-brands fa-letterboxd # override with custom icon class
 instagram_id: isabelxhtan
-spotify_id: aufuqu8v6pvl0a0xrej999unf 
+# spotify_id: #spotify_id 
 custom_social:
   logo: fa-brands fa-goodreads
   title: Goodreads

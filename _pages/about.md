@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'></a>Currently - Ontario
+subtitle: <a href='#'></a>Currently - London, Ontario / MLIS Western University
 
 profile:
   align: right
@@ -25,4 +25,3 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-This is some text. 

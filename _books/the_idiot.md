@@ -10,10 +10,10 @@ tags: funny reflective slow-paced
 # buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
 date: 2026-08-11
 started: 2026-08-11
-finished:  
+finished: 2026-09-07 
 released: 2017
 stars: 
 # goodreads_review: 6318556633
-status: reading
+status: finished
 ---
 

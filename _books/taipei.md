@@ -10,10 +10,10 @@ tags: adventurous slow-paced
 # buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
 date: 2026-08-30
 started: 2026-08-30
-finished:  
+finished: 2026-09-09 
 released: 2013
 stars: 
 # goodreads_review: 6318556633
-status: reading
+status: finished
 ---
 
